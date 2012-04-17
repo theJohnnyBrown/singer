@@ -264,6 +264,8 @@ textarea {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
+	padding-bottom: 10px;
 }
 
 #bottomNav ul li {
@@ -386,3 +388,9 @@ For Autoscrolling section (e.g. testimonials on homepage)
 /*--------------------------------------------------
 End autoscroll
 --------------------------------------------------*/
+
+p.indent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
