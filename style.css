@@ -384,6 +384,11 @@ textarea {
 	font-weight: normal;
 }
 
+.multiple {
+    max-width: 175px;
+    min-height: 227px;
+}
+
 #staffName {
 	display: block;
 	clear: both;
