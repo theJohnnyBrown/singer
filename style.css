@@ -77,8 +77,8 @@ h1 {
 
 #logo img{
 	float: left;
-	width: 77px;
-	height: 98px;
+	width: 117px;
+	height: 150px;
 }
 
 #logoText {
@@ -104,20 +104,29 @@ h1 {
 }
 
 #navBar {
-	clear: both;
-	padding-top: 15px;
+	clear: right;
 	
+}
+
+#navBar ul {
+	padding: 7px 0px;
+	background: #888888;
+	overflow: hidden;
 }
 
 #navBar ul li {
 	display: inline;
-	margin-right: 75px;
 }
 
 #navBar ul li a {
-	color: #333333;
+	color: #EEEFEB;
+	font-weight: bold;
+	padding: 7px 35px;
 }
 
+#navBar ul li a:hover {
+	background: #666666;
+}
 #aboveTheFoldWrapper {
 	background: url("images/featureAreaWrapperBG.gif") repeat top left;
 	padding: 10px 0px;
@@ -166,6 +175,7 @@ h1 {
 	min-height: 600px;
 	background: #eeefeb;
 	padding: 10px 0px;
+	border-top: 1px solid #B6B7B2;
 	border-bottom: 1px solid #b6b7b2;
 }
 
@@ -173,6 +183,10 @@ h1 {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#footer h1 {
+	
 }
 
 #contactFormWrapper {
@@ -230,15 +244,24 @@ textarea {
 	margin-right: auto;
 }
 
+#footerOfficesWrapper h2 {
+	font-weight: normal;
+	font-size: 140%;
+	color: #333333;
+	text-align: center;
+}
+
+#footerOfficesWrapper p {
+	font-size: 80%;
+	line-height: 2em;
+	color: #888888;
+}
+
 #mainOffice {
-    margin-left: auto;
-    margin-right: auto;
     float: left;
 }
 
 #satelliteOffice {
-    margin-left: auto;
-    margin-right: auto;
     float: right;
 }
 
@@ -253,8 +276,8 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 12px;
-	padding-top: 5px;
-	margin-bottom: 5px;
+	padding-top: 10px;
+	margin-bottom: 30px;
 }
 
 #copyright {
@@ -266,12 +289,19 @@ textarea {
 	margin-right: auto;
 	margin-top: 10px;
 	padding-bottom: 10px;
+	font-size: 80%;
+	color: #333333;
 }
 
 #bottomNav ul li {
 	display: inline;
-	padding-right: 10px;
+	padding:3px 8px;
 	font-size: 12px;
+	border-right: 1px solid #333333;
+}
+
+#bottomNav ul li:last-child {
+	border: none;
 }
 
 .floatLeft {
@@ -328,11 +358,51 @@ textarea {
 }
 
 .gmap {
-    background-color: #B6B7B2
+    background-color: #B6B7B2;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
 }
+
+.staffWrapper {
+	width: 940px;
+	margin-bottom: 25px;
+	padding: 10px 10px;
+	border: 1px solid #666666;
+}
+
+.staffPicture {
+	padding: 5px;
+	text-align: center;
+	font-size: 105%;
+	font-weight: bold;
+	background: white;
+	border: #888888;
+}
+
+.staffTitle {
+	font-weight: normal;
+}
+
+#staffName {
+	display: block;
+	clear: both;
+}
+
+.staffPicture img {
+	margin-bottom: 5px;
+	border: 1px solid #999999;
+}
+
+.staffDescription {
+	padding-top: 10px;
+	line-height: 1.5em;
+}
+
+.everyOther {
+	background: #D5D6D2;
+}
+
 /*--------------------------------------------------
 For Autoscrolling section (e.g. testimonials on homepage)
 --------------------------------------------------*/
