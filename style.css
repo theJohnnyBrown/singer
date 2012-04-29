@@ -339,11 +339,16 @@ textarea {
 
 .cList li {
 	padding-bottom: 20px;
+	list-style-type: disc;
 }
 #contentArea h3 {
 	background-color: #B6B7B2;
 	display: block;
 	overflow: hidden;
+}
+
+#contentArea h4 {
+    color: #4F81BD;
 }
 
 #lasikDiagram {
