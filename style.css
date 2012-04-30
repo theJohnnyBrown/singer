@@ -121,7 +121,7 @@ h1 {
 #navBar ul li a {
 	color: #EEEFEB;
 	font-weight: bold;
-	padding: 7px 35px;
+	padding: 7px 10px;
 }
 
 #navBar ul li a:hover {
@@ -455,6 +455,7 @@ For Autoscrolling section (e.g. testimonials on homepage)
 /* single scrollable item */
 .scrollable img {
     float:left;
+    max-height: 50px;
 }
 
 /* active item */
