@@ -300,6 +300,11 @@ textarea {
 	border-right: 1px solid #333333;
 }
 
+#contentArea ol li {
+    list-style-type: decimal;
+    margin-bottom: 1em;
+}
+
 #bottomNav ul li:last-child {
 	border: none;
 }
@@ -341,6 +346,12 @@ textarea {
 	padding-bottom: 20px;
 	list-style-type: disc;
 }
+
+.benefit {
+    font-weight: bold;
+    color: #FF4444;
+}
+
 #contentArea h3 {
 	background-color: #B6B7B2;
 	display: block;
@@ -348,6 +359,10 @@ textarea {
 }
 
 #contentArea h4 {
+    color: #4F81BD;
+}
+
+#contentArea h4 a {
     color: #4F81BD;
 }
 
