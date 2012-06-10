@@ -121,6 +121,7 @@ h1 {
 #navBar ul li a {
 	color: #EEEFEB;
 	font-weight: bold;
+	font-size: 14px;
 	padding: 7px 7px;
 }
 
@@ -350,6 +351,10 @@ textarea {
 .benefit {
     font-weight: bold;
     color: #FF4444;
+}
+
+#contentArea h2 a {
+    color: #4F81BD;
 }
 
 #contentArea h3 {
